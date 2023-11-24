@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B20498212AF3D19B00921E44 /* HyperValuePlayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20498202AF3D19B00921E44 /* HyperValuePlayApp.swift */; };
+		B20498232AF3D19B00921E44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20498222AF3D19B00921E44 /* ContentView.swift */; };
+		B20498252AF3D19D00921E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20498242AF3D19D00921E44 /* Assets.xcassets */; };
+		B20498292AF3D19D00921E44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20498282AF3D19D00921E44 /* Preview Assets.xcassets */; };
+		B204983D2AF3D19D00921E44 /* HyperValuePlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B204983C2AF3D19D00921E44 /* HyperValuePlayUITests.swift */; };
+		B204983F2AF3D19D00921E44 /* HyperValuePlayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B204983E2AF3D19D00921E44 /* HyperValuePlayUITestsLaunchTests.swift */; };
+		B204984C2AF3D1BB00921E44 /* DelayedValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B204984B2AF3D1BB00921E44 /* DelayedValue.swift */; };
+		B20498512AF4640900921E44 /* HyperValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20498502AF4640900921E44 /* HyperValueView.swift */; };
+		B20498532AF4693900921E44 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20498522AF4693900921E44 /* Environment.swift */; };
+		B23A3FDA2B0A9FEC008D51BD /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23A3FD92B0A9FEC008D51BD /* Graph.swift */; };
+		B23A3FDC2B0AA06A008D51BD /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23A3FDB2B0AA06A008D51BD /* GraphView.swift */; };
+		B23A3FDE2B0B7E2F008D51BD /* HyperViewImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23A3FDD2B0B7E2F008D51BD /* HyperViewImage.swift */; };
+		B25D4CBA2AF67007003AE943 /* HyperValue in Frameworks */ = {isa = PBXBuildFile; productRef = B25D4CB92AF67007003AE943 /* HyperValue */; };
+		B275778E2B0F444E00876CA5 /* HyperValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20498322AF3D19D00921E44 /* HyperValueTests.swift */; };
+		B28714C82B094C3700B8CAFF /* HyperValuesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28714C72B094C3700B8CAFF /* HyperValuesModel.swift */; };
+		B28714CA2B095F6400B8CAFF /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28714C92B095F6400B8CAFF /* Helpers.swift */; };
+		B2AF554B2AFEF80200D48E3B /* AxesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AF554A2AFEF80200D48E3B /* AxesView.swift */; };
+		B2AF554E2AFF793400D48E3B /* SubmitAfterEnterNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AF554D2AFF793400D48E3B /* SubmitAfterEnterNumberView.swift */; };
+		B2AF55522AFF7E8200D48E3B /* ComittedNumberFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AF55512AFF7E8200D48E3B /* ComittedNumberFieldStyle.swift */; };
+		B2AF55542AFF9B6000D48E3B /* VertexDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AF55532AFF9B6000D48E3B /* VertexDataView.swift */; };
+		B2AF55562AFF9D1A00D48E3B /* GropupStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AF55552AFF9D1A00D48E3B /* GropupStyle.swift */; };
+		B2AF55582AFFAC0F00D48E3B /* AxisChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AF55572AFFAC0F00D48E3B /* AxisChooser.swift */; };
+		B2AF555A2AFFD9D900D48E3B /* CorrectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AF55592AFFD9D900D48E3B /* CorrectionView.swift */; };
+		B2AF555C2AFFF00100D48E3B /* HyperValueChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AF555B2AFFF00100D48E3B /* HyperValueChooser.swift */; };
+		B2AF555E2B0002C400D48E3B /* HyperValueValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AF555D2B0002C400D48E3B /* HyperValueValueView.swift */; };
+		B2AF55602B00AD0300D48E3B /* AxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AF555F2B00AD0300D48E3B /* AxisView.swift */; };
+		B2B0C8062B011D6500CB1313 /* TestColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B0C8052B011D6500CB1313 /* TestColorView.swift */; };
+		B2B6C0382B0FF4E70087FB2F /* HyperValue in Frameworks */ = {isa = PBXBuildFile; productRef = B2B6C0372B0FF4E70087FB2F /* HyperValue */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B204982F2AF3D19D00921E44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20498152AF3D19B00921E44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B204981C2AF3D19B00921E44;
+			remoteInfo = CombinePlay;
+		};
+		B20498392AF3D19D00921E44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20498152AF3D19B00921E44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B204981C2AF3D19B00921E44;
+			remoteInfo = CombinePlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B204981D2AF3D19B00921E44 /* HyperValuePlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyperValuePlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20498202AF3D19B00921E44 /* HyperValuePlayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperValuePlayApp.swift; sourceTree = "<group>"; };
+		B20498222AF3D19B00921E44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B20498242AF3D19D00921E44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B20498282AF3D19D00921E44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B204982E2AF3D19D00921E44 /* HyperValuePlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyperValuePlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20498322AF3D19D00921E44 /* HyperValueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperValueTests.swift; sourceTree = "<group>"; };
+		B20498382AF3D19D00921E44 /* HyperValuePlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyperValuePlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B204983C2AF3D19D00921E44 /* HyperValuePlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperValuePlayUITests.swift; sourceTree = "<group>"; };
+		B204983E2AF3D19D00921E44 /* HyperValuePlayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperValuePlayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B204984B2AF3D1BB00921E44 /* DelayedValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayedValue.swift; sourceTree = "<group>"; };
+		B20498502AF4640900921E44 /* HyperValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperValueView.swift; sourceTree = "<group>"; };
+		B20498522AF4693900921E44 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		B23A3FD92B0A9FEC008D51BD /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		B23A3FDB2B0AA06A008D51BD /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		B23A3FDD2B0B7E2F008D51BD /* HyperViewImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperViewImage.swift; sourceTree = "<group>"; };
+		B25D4CB72AF66FDC003AE943 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../../NewHyperValuePackages/HyperValue/Package.swift; sourceTree = "<group>"; };
+		B28714C72B094C3700B8CAFF /* HyperValuesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperValuesModel.swift; sourceTree = "<group>"; };
+		B28714C92B095F6400B8CAFF /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		B2A65A372B0FCE9E0081F7C0 /* CombinePlayTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CombinePlayTestPlan.xctestplan; sourceTree = "<group>"; };
+		B2AF554A2AFEF80200D48E3B /* AxesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxesView.swift; sourceTree = "<group>"; };
+		B2AF554D2AFF793400D48E3B /* SubmitAfterEnterNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitAfterEnterNumberView.swift; sourceTree = "<group>"; };
+		B2AF554F2AFF7B3D00D48E3B /* Smieci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smieci.swift; sourceTree = "<group>"; };
+		B2AF55512AFF7E8200D48E3B /* ComittedNumberFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComittedNumberFieldStyle.swift; sourceTree = "<group>"; };
+		B2AF55532AFF9B6000D48E3B /* VertexDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VertexDataView.swift; sourceTree = "<group>"; };
+		B2AF55552AFF9D1A00D48E3B /* GropupStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GropupStyle.swift; sourceTree = "<group>"; };
+		B2AF55572AFFAC0F00D48E3B /* AxisChooser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxisChooser.swift; sourceTree = "<group>"; };
+		B2AF55592AFFD9D900D48E3B /* CorrectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectionView.swift; sourceTree = "<group>"; };
+		B2AF555B2AFFF00100D48E3B /* HyperValueChooser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperValueChooser.swift; sourceTree = "<group>"; };
+		B2AF555D2B0002C400D48E3B /* HyperValueValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyperValueValueView.swift; sourceTree = "<group>"; };
+		B2AF555F2B00AD0300D48E3B /* AxisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxisView.swift; sourceTree = "<group>"; };
+		B2B0C8052B011D6500CB1313 /* TestColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestColorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B204981A2AF3D19B00921E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25D4CBA2AF67007003AE943 /* HyperValue in Frameworks */,
+				B2B6C0382B0FF4E70087FB2F /* HyperValue in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B204982B2AF3D19D00921E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20498352AF3D19D00921E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B20498142AF3D19B00921E44 = {
+			isa = PBXGroup;
+			children = (
+				B2A65A372B0FCE9E0081F7C0 /* CombinePlayTestPlan.xctestplan */,
+				B204981F2AF3D19B00921E44 /* HyperValuePlay */,
+				B20498312AF3D19D00921E44 /* HyperValuePlayTests */,
+				B204983B2AF3D19D00921E44 /* HyperValuePlayUITests */,
+				B204981E2AF3D19B00921E44 /* Products */,
+				B22005B02AF56B5800DEF58C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B204981E2AF3D19B00921E44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B204981D2AF3D19B00921E44 /* HyperValuePlay.app */,
+				B204982E2AF3D19D00921E44 /* HyperValuePlayTests.xctest */,
+				B20498382AF3D19D00921E44 /* HyperValuePlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B204981F2AF3D19B00921E44 /* HyperValuePlay */ = {
+			isa = PBXGroup;
+			children = (
+				B20498202AF3D19B00921E44 /* HyperValuePlayApp.swift */,
+				B20498222AF3D19B00921E44 /* ContentView.swift */,
+				B28714C92B095F6400B8CAFF /* Helpers.swift */,
+				B204984B2AF3D1BB00921E44 /* DelayedValue.swift */,
+				B2AF554C2AFF78DF00D48E3B /* Views */,
+				B20498522AF4693900921E44 /* Environment.swift */,
+				B28714C72B094C3700B8CAFF /* HyperValuesModel.swift */,
+				B20498242AF3D19D00921E44 /* Assets.xcassets */,
+				B20498272AF3D19D00921E44 /* Preview Content */,
+			);
+			path = HyperValuePlay;
+			sourceTree = "<group>";
+		};
+		B20498272AF3D19D00921E44 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B20498282AF3D19D00921E44 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B20498312AF3D19D00921E44 /* HyperValuePlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				B20498322AF3D19D00921E44 /* HyperValueTests.swift */,
+			);
+			path = HyperValuePlayTests;
+			sourceTree = "<group>";
+		};
+		B204983B2AF3D19D00921E44 /* HyperValuePlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B204983C2AF3D19D00921E44 /* HyperValuePlayUITests.swift */,
+				B204983E2AF3D19D00921E44 /* HyperValuePlayUITestsLaunchTests.swift */,
+			);
+			path = HyperValuePlayUITests;
+			sourceTree = "<group>";
+		};
+		B22005B02AF56B5800DEF58C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B25D4CB72AF66FDC003AE943 /* Package.swift */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2AF554C2AFF78DF00D48E3B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2AF554D2AFF793400D48E3B /* SubmitAfterEnterNumberView.swift */,
+				B20498502AF4640900921E44 /* HyperValueView.swift */,
+				B2AF555D2B0002C400D48E3B /* HyperValueValueView.swift */,
+				B2AF55592AFFD9D900D48E3B /* CorrectionView.swift */,
+				B2AF55532AFF9B6000D48E3B /* VertexDataView.swift */,
+				B2AF55572AFFAC0F00D48E3B /* AxisChooser.swift */,
+				B2AF555B2AFFF00100D48E3B /* HyperValueChooser.swift */,
+				B2AF554A2AFEF80200D48E3B /* AxesView.swift */,
+				B2B0C8052B011D6500CB1313 /* TestColorView.swift */,
+				B23A3FDD2B0B7E2F008D51BD /* HyperViewImage.swift */,
+				B23A3FD92B0A9FEC008D51BD /* Graph.swift */,
+				B23A3FDB2B0AA06A008D51BD /* GraphView.swift */,
+				B2AF555F2B00AD0300D48E3B /* AxisView.swift */,
+				B2AF55502AFF7E6C00D48E3B /* ViewStyles */,
+				B2AF554F2AFF7B3D00D48E3B /* Smieci.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B2AF55502AFF7E6C00D48E3B /* ViewStyles */ = {
+			isa = PBXGroup;
+			children = (
+				B2AF55512AFF7E8200D48E3B /* ComittedNumberFieldStyle.swift */,
+				B2AF55552AFF9D1A00D48E3B /* GropupStyle.swift */,
+			);
+			path = ViewStyles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B204981C2AF3D19B00921E44 /* HyperValuePlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20498422AF3D19D00921E44 /* Build configuration list for PBXNativeTarget "HyperValuePlay" */;
+			buildPhases = (
+				B20498192AF3D19B00921E44 /* Sources */,
+				B204981A2AF3D19B00921E44 /* Frameworks */,
+				B204981B2AF3D19B00921E44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HyperValuePlay;
+			packageProductDependencies = (
+				B25D4CB92AF67007003AE943 /* HyperValue */,
+				B2B6C0372B0FF4E70087FB2F /* HyperValue */,
+			);
+			productName = CombinePlay;
+			productReference = B204981D2AF3D19B00921E44 /* HyperValuePlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B204982D2AF3D19D00921E44 /* HyperValuePlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20498452AF3D19D00921E44 /* Build configuration list for PBXNativeTarget "HyperValuePlayTests" */;
+			buildPhases = (
+				B204982A2AF3D19D00921E44 /* Sources */,
+				B204982B2AF3D19D00921E44 /* Frameworks */,
+				B204982C2AF3D19D00921E44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20498302AF3D19D00921E44 /* PBXTargetDependency */,
+			);
+			name = HyperValuePlayTests;
+			productName = CombinePlayTests;
+			productReference = B204982E2AF3D19D00921E44 /* HyperValuePlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B20498372AF3D19D00921E44 /* HyperValuePlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20498482AF3D19D00921E44 /* Build configuration list for PBXNativeTarget "HyperValuePlayUITests" */;
+			buildPhases = (
+				B20498342AF3D19D00921E44 /* Sources */,
+				B20498352AF3D19D00921E44 /* Frameworks */,
+				B20498362AF3D19D00921E44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B204983A2AF3D19D00921E44 /* PBXTargetDependency */,
+			);
+			name = HyperValuePlayUITests;
+			productName = CombinePlayUITests;
+			productReference = B20498382AF3D19D00921E44 /* HyperValuePlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B20498152AF3D19B00921E44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B204981C2AF3D19B00921E44 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					B204982D2AF3D19D00921E44 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = B204981C2AF3D19B00921E44;
+					};
+					B20498372AF3D19D00921E44 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = B204981C2AF3D19B00921E44;
+					};
+				};
+			};
+			buildConfigurationList = B20498182AF3D19B00921E44 /* Build configuration list for PBXProject "HyperValuePlay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B20498142AF3D19B00921E44;
+			packageReferences = (
+				B2B6C0362B0FF4E70087FB2F /* XCLocalSwiftPackageReference ".." */,
+			);
+			productRefGroup = B204981E2AF3D19B00921E44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B204981C2AF3D19B00921E44 /* HyperValuePlay */,
+				B204982D2AF3D19D00921E44 /* HyperValuePlayTests */,
+				B20498372AF3D19D00921E44 /* HyperValuePlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B204981B2AF3D19B00921E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20498292AF3D19D00921E44 /* Preview Assets.xcassets in Resources */,
+				B20498252AF3D19D00921E44 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B204982C2AF3D19D00921E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20498362AF3D19D00921E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B20498192AF3D19B00921E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2AF55562AFF9D1A00D48E3B /* GropupStyle.swift in Sources */,
+				B20498512AF4640900921E44 /* HyperValueView.swift in Sources */,
+				B204984C2AF3D1BB00921E44 /* DelayedValue.swift in Sources */,
+				B28714C82B094C3700B8CAFF /* HyperValuesModel.swift in Sources */,
+				B2AF55582AFFAC0F00D48E3B /* AxisChooser.swift in Sources */,
+				B2AF55602B00AD0300D48E3B /* AxisView.swift in Sources */,
+				B2AF55542AFF9B6000D48E3B /* VertexDataView.swift in Sources */,
+				B2AF555E2B0002C400D48E3B /* HyperValueValueView.swift in Sources */,
+				B2AF555C2AFFF00100D48E3B /* HyperValueChooser.swift in Sources */,
+				B2B0C8062B011D6500CB1313 /* TestColorView.swift in Sources */,
+				B2AF554E2AFF793400D48E3B /* SubmitAfterEnterNumberView.swift in Sources */,
+				B20498232AF3D19B00921E44 /* ContentView.swift in Sources */,
+				B20498212AF3D19B00921E44 /* HyperValuePlayApp.swift in Sources */,
+				B28714CA2B095F6400B8CAFF /* Helpers.swift in Sources */,
+				B2AF555A2AFFD9D900D48E3B /* CorrectionView.swift in Sources */,
+				B23A3FDC2B0AA06A008D51BD /* GraphView.swift in Sources */,
+				B2AF55522AFF7E8200D48E3B /* ComittedNumberFieldStyle.swift in Sources */,
+				B20498532AF4693900921E44 /* Environment.swift in Sources */,
+				B23A3FDA2B0A9FEC008D51BD /* Graph.swift in Sources */,
+				B2AF554B2AFEF80200D48E3B /* AxesView.swift in Sources */,
+				B23A3FDE2B0B7E2F008D51BD /* HyperViewImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B204982A2AF3D19D00921E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B275778E2B0F444E00876CA5 /* HyperValueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20498342AF3D19D00921E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B204983F2AF3D19D00921E44 /* HyperValuePlayUITestsLaunchTests.swift in Sources */,
+				B204983D2AF3D19D00921E44 /* HyperValuePlayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B20498302AF3D19D00921E44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B204981C2AF3D19B00921E44 /* HyperValuePlay */;
+			targetProxy = B204982F2AF3D19D00921E44 /* PBXContainerItemProxy */;
+		};
+		B204983A2AF3D19D00921E44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B204981C2AF3D19B00921E44 /* HyperValuePlay */;
+			targetProxy = B20498392AF3D19D00921E44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B20498402AF3D19D00921E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B20498412AF3D19D00921E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		B20498432AF3D19D00921E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HyperValuePlay/HyperValuePlay.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HyperValuePlay/Preview Content\"";
+				DEVELOPMENT_TEAM = 3ASHMCMJEN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.typoland.HyperValuePlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B20498442AF3D19D00921E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HyperValuePlay/HyperValuePlay.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HyperValuePlay/Preview Content\"";
+				DEVELOPMENT_TEAM = 3ASHMCMJEN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.typoland.HyperValuePlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B20498462AF3D19D00921E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ASHMCMJEN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.typoland.HyperValueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HyperValuePlay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HyperValuePlay";
+			};
+			name = Debug;
+		};
+		B20498472AF3D19D00921E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ASHMCMJEN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.typoland.HyperValueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HyperValuePlay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HyperValuePlay";
+			};
+			name = Release;
+		};
+		B20498492AF3D19D00921E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ASHMCMJEN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.typoland.HyperValuePlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CombinePlay;
+			};
+			name = Debug;
+		};
+		B204984A2AF3D19D00921E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ASHMCMJEN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.typoland.HyperValuePlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CombinePlay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B20498182AF3D19B00921E44 /* Build configuration list for PBXProject "HyperValuePlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20498402AF3D19D00921E44 /* Debug */,
+				B20498412AF3D19D00921E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20498422AF3D19D00921E44 /* Build configuration list for PBXNativeTarget "HyperValuePlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20498432AF3D19D00921E44 /* Debug */,
+				B20498442AF3D19D00921E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20498452AF3D19D00921E44 /* Build configuration list for PBXNativeTarget "HyperValuePlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20498462AF3D19D00921E44 /* Debug */,
+				B20498472AF3D19D00921E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20498482AF3D19D00921E44 /* Build configuration list for PBXNativeTarget "HyperValuePlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20498492AF3D19D00921E44 /* Debug */,
+				B204984A2AF3D19D00921E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		B2B6C0362B0FF4E70087FB2F /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B25D4CB92AF67007003AE943 /* HyperValue */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HyperValue;
+		};
+		B2B6C0372B0FF4E70087FB2F /* HyperValue */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HyperValue;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B20498152AF3D19B00921E44 /* Project object */;
+}

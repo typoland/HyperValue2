@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "B61067C6-05EE-4CDD-86D8-73F8332FC45B",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:HyperValuePlay.xcodeproj",
+        "identifier" : "B204982D2AF3D19D00921E44",
+        "name" : "HyperValuePlayTests"
+      }
+    }
+  ],
+  "version" : 1
+}

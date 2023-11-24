@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4402D875-E6C6-40E5-B0F5-377C2F155C26"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "224A66D5-F785-4D01-BD70-A25DB166D1E7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../NewHyperValuePackages/HyperValue/Sources/HyperValue/Protocols/03-SpaceCoordinate+extensions.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D64A0AD8-170C-4E19-991A-8921E79812F1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../NewHyperValuePackages/HyperValue/Sources/HyperValue/HyperValueExtensions/CountGrid.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "defineGrid()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "24667A9B-5FFF-4292-9F1D-EEBDCC706C1D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../NewHyperValuePackages/HyperValue/Sources/HyperValue/HyperValueExtensions/CountGrid.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "defineGrid()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "24667A9B-5FFF-4292-9F1D-EEBDCC706C1D - f79af0fe9e21a54c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for HyperValue.HyperValue.defineGrid() async throws -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "CombinePlay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lukasz/Documents/XCode/NewHyperValuePackages/HyperValue/Sources/HyperValue/HyperValueExtensions/CountGrid.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "3109">
+               </Location>
+               <Location
+                  uuid = "24667A9B-5FFF-4292-9F1D-EEBDCC706C1D - f79af0fe9e21a54c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for HyperValue.HyperValue.defineGrid() async throws -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "CombinePlay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lukasz/Documents/XCode/NewHyperValuePackages/HyperValue/Sources/HyperValue/HyperValueExtensions/CountGrid.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "3745">
+               </Location>
+               <Location
+                  uuid = "24667A9B-5FFF-4292-9F1D-EEBDCC706C1D - b0681855508699b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for HyperValue.HyperValue.defineGrid() async throws -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "CombinePlay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lukasz/Documents/XCode/NewHyperValuePackages/HyperValue/Sources/HyperValue/HyperValueExtensions/CountGrid.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "2193">
+               </Location>
+               <Location
+                  uuid = "24667A9B-5FFF-4292-9F1D-EEBDCC706C1D - b0681855508699b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for HyperValue.HyperValue.defineGrid() async throws -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "CombinePlay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lukasz/Documents/XCode/NewHyperValuePackages/HyperValue/Sources/HyperValue/HyperValueExtensions/CountGrid.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "2829">
+               </Location>
+               <Location
+                  uuid = "24667A9B-5FFF-4292-9F1D-EEBDCC706C1D - f79af0fe9e21a54c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for HyperValue.HyperValue.defineGrid() async throws -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "CombinePlay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lukasz/Documents/XCode/NewHyperValuePackages/HyperValue/Sources/HyperValue/HyperValueExtensions/CountGrid.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "2993">
+               </Location>
+               <Location
+                  uuid = "24667A9B-5FFF-4292-9F1D-EEBDCC706C1D - b0681855508699b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for HyperValue.HyperValue.defineGrid() async throws -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "CombinePlay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lukasz/Documents/XCode/NewHyperValuePackages/HyperValue/Sources/HyperValue/HyperValueExtensions/CountGrid.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "2077">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "08E8E967-C276-4F98-987E-281CB9BAC039"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../NewHyperValuePackages/HyperValue/Sources/HyperValue/Interpolate/02-JoinCorrections.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "join(corrections:in:on:cachedSpaces:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
